@@ -136,7 +136,7 @@ elif analysis_type == "Prediction Analysis":
         feature_options = ["temp", "hum", "windspeed", "season", "weathersit", "holiday", "workingday"]
     else:
         data = filtered_hourly_data
-        feature_options = ["Hour", "temp", "atemp", "hum", "windspeed", "season", "weatherit", "holiday", "workingday"]
+        feature_options = ["hr", "temp", "atemp", "hum", "windspeed", "season", "weathersit", "holiday", "workingday"]
 
     st.subheader("Bike Rental Prediction Analysis")
 
